@@ -6,7 +6,7 @@
 /******************************************************************************
  * Private stuff
  ******************************************************************************/
-static const char *__BNF_NOARGS;
+static const char * UNUSED_VARIABLE __BNF_NOARGS;
 
 /*
  * Assumes bnf() is being called within main(), and that argc and argv

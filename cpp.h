@@ -1,6 +1,15 @@
 #ifndef _CPP_H
 #define _CPP_H
 
+
+#ifdef __GNUC__
+#define UNUSED_VARIABLE __attribute__ ((unused))
+#else
+#define UNUSED_VARIABLE 
+#endif
+
+
+
 /* 
  * VA_COMMA surrounds its arguments (__VA_ARGS__) with 8 additional 
  * arguments: one empty argument before (doesn't have to be empty --
